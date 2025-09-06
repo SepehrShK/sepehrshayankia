@@ -20,27 +20,24 @@ const Nav = () => {
 
     return (
         <nav className="nav">
-            <div className="nav-container">
+            {/* desktop nav */}
+            <ul className={`nav-links ${open ? "active" : ""}`}>
+                {navLinks.map((link) => (
+                    <li key={link.name}>
+                        <a href={link.href} onClick={() => setOpen(false)}>
+                            {link.name}
+                        </a>
+                    </li>
+                ))}
+            </ul>
 
-                {/* desktop nav */}
-                <ul className={`nav-links ${open ? "active" : ""}`}>
-                    {navLinks.map((link) => (
-                        <li key={link.name}>
-                            <a href={link.href} onClick={() => setOpen(false)}>
-                                {link.name}
-                            </a>
-                        </li>
-                    ))}
-                </ul>
-
-                {/* hamburger */}
-                <div className="menu-toggle" onClick={() => setOpen(!open)}>
-                    <GiHamburgerMenu className="hamburger-icon" size={30} />
-                </div>
-
-                {/* logo */}
-                <h1 className="logo">سپهر شایان کیا</h1>
+            {/* hamburger */}
+            <div className="menu-toggle" onClick={() => setOpen(!open)}>
+                <GiHamburgerMenu className="hamburger-icon" size={30} />
             </div>
+
+            {/* logo */}
+            <h1 className="logo">سپهر شایان کیا</h1>
         </nav>
     );
 }
