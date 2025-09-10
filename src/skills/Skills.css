@@ -2,7 +2,7 @@
     max-width: 1036px;
     padding: 1rem 2rem;
     margin-top: 40px;
-    margin-bottom: 100px;
+    scroll-margin-top: 100px;
 }
 
 .skills-box{
@@ -24,8 +24,15 @@
     font-size: 104px;
 }
 
+@media (max-width: 950px){
+    .skills-section{ 
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
 /* mobile styles */
-@media (max-width: 560px){
+@media (max-width: 650px){
     .skill{
         width: 90px;
         padding: 1rem;
