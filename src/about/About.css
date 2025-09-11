@@ -15,7 +15,7 @@
 }
 
 .about-title h4{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 0;
     align-content: center;
 }
@@ -30,6 +30,7 @@
     margin: 0;
 }
 
+/* diffrent size styles */
 @media (max-width: 1100px){
     .about-section{
         display: block;
@@ -38,17 +39,21 @@
     }
 
     .about-title{
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
     }
 
     .about-text{
         max-width: 1036px;
     }
 }
-/* mobile styles */
+
 @media (max-width: 950px){
     .about-section{
         max-width: 600px;
+    }
+
+    .about-title h4{
+        font-size: 1.8rem;
     }
 
     .about-text p{

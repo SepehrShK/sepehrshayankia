@@ -1,4 +1,5 @@
 import About from "./about/About"
+import Contact from "./contact/Contact"
 import Home from "./home/Home"
 import Nav from "./nav/Nav"
 import Skills from "./skills/Skills"
@@ -11,6 +12,7 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <Contact/>
     </>
   )
 }
