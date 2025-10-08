@@ -25,7 +25,7 @@
 }
 
 .nav-links li a:hover {
-    color: #8b5cf6;
+    color: rgba(139, 92, 246, 0.7);
 }
 
 /* hamburger button */
@@ -39,7 +39,7 @@
     color: white;
 }
 .hamburger-icon:hover {
-    color: #8b5cf6;
+    color: rgba(139, 92, 246, 0.7);
 }
 
 /* mobile styles */
