@@ -5,7 +5,9 @@ const Project = () => {
         <section className="projects-section">
             <h1>پروژه های من</h1>
             <div className="project-box">
-                <img src="/assets/shopSite.png" alt="site photo" />
+                <div className="project-photo">
+                    <img src="/assets/shopSite.png" alt="site photo" />
+                </div>
                 <div className="project-body">
                     <h2>فروشگاه</h2>
                     <p>یک وب اپ فروشگاهی طراحی شده با react که کاربران میتونن لاگین کنند و محصولات رو سرچ کنند و به سبد خرید خود اضافه کنند.</p>
