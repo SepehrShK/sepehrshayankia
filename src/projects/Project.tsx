@@ -10,9 +10,9 @@ const Project = () => {
                 </div>
                 <div className="project-body">
                     <h2>فروشگاه</h2>
-                    <p>یک وب اپ فروشگاهی طراحی شده با react که کاربران میتونن لاگین کنند و محصولات رو سرچ کنند و به سبد خرید خود اضافه کنند.</p>
+                    <p>یک وب اپ فروشگاهی طراحی شده با react که کاربران میتوانند لاگین کنند و محصولات را سرچ و به سبد خرید خود اضافه کنند.</p>
                     <div className="project-links">
-                        <p><a href="https://sepehr-online-shop.vercel.app" target="_blank" rel="noopener noreferrer">نمایش زنده (نیاز به روشن شدن فیلترشکن هستش)</a></p>
+                        <p><a href="https://sepehr-online-shop.vercel.app" target="_blank" rel="noopener noreferrer">نمایش زنده (نیاز به فیلترشکن هستش)</a></p>
                         <p><a href="https://github.com/SepehrShK/online-shop" target="_blank" rel="noopener noreferrer">سورس کد در GitHub</a></p>
                     </div>
                 </div>
