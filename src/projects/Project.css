@@ -2,6 +2,7 @@
     margin-top: 3rem;
     max-width: 1036px;
     padding: 1rem 2rem;
+    scroll-margin-top: 100px;
 }
 
 .project-box{

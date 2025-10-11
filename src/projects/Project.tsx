@@ -2,7 +2,7 @@ import "./Project.css";
 
 const Project = () => {
     return (
-        <section className="projects-section">
+        <section className="projects-section" id="projects">
             <h1>پروژه های من</h1>
             <div className="project-box">
                 <div className="project-photo">
