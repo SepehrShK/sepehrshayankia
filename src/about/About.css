@@ -30,6 +30,33 @@
     margin: 0;
 }
 
+.resume-link{
+    border: 1px solid rgb(139, 92, 246);
+    padding: 6px 14px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+.resume-link:hover{
+    background-color: rgb(139, 92, 246);
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.4);
+
+}
+
+.resume-link a{
+    text-decoration: none;
+    color: rgb(139, 92, 246);
+    transition: all ease 0.3s;
+}
+
+.resume-link:hover a{
+    color: white;
+}
+
+
 /* diffrent size styles */
 @media (max-width: 1100px){
     .about-section{
