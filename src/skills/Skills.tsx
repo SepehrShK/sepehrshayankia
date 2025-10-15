@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaAngular, FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript } from "react-icons/si";
+import { SiMui, SiTypescript } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 
 import './Skills.css'
@@ -19,6 +19,7 @@ const Skills = () => {
                 <SkillsComp Icon={FaAngular} label="Angular"/>
                 <SkillsComp Icon={FaPython} label="Python"/>
                 <SkillsComp Icon={RiNextjsFill} label="Nextjs"/>
+                <SkillsComp Icon={SiMui} label="Material UI"/>
                 {/* <SkillsComp Icon={RiTailwindCssFill} label="Tailwind"/> */}
             </div>
         </section>
