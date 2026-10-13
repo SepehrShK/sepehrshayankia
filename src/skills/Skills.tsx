@@ -1,7 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaAngular, FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMui, SiTypescript } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 
 import './Skills.css'
 import SkillsComp from "../components/SkillsComp";
@@ -11,16 +11,16 @@ const Skills = () => {
         <section id="skills" className="skills-section">
             <h3>مهارت های من</h3>
             <div className="skills-box">
-                <SkillsComp Icon={FaHtml5} label="HTML"/>
-                <SkillsComp Icon={FaCss3Alt} label="CSS"/>
+                <SkillsComp Icon={FaReact} label="React"/>
+                <SkillsComp Icon={RiNextjsFill} label="NextJS"/>
                 <SkillsComp Icon={IoLogoJavascript} label="JavaScript"/>
                 <SkillsComp Icon={SiTypescript} label="TypeScript"/>
-                <SkillsComp Icon={FaReact} label="React"/>
+                <SkillsComp Icon={FaHtml5} label="HTML"/>
+                <SkillsComp Icon={FaCss3Alt} label="CSS"/>
+                <SkillsComp Icon={RiTailwindCssFill} label="Tailwind"/>
+                <SkillsComp Icon={SiMui} label="Material UI"/>
                 <SkillsComp Icon={FaAngular} label="Angular"/>
                 <SkillsComp Icon={FaPython} label="Python"/>
-                {/* <SkillsComp Icon={RiNextjsFill} label="Nextjs"/> */}
-                <SkillsComp Icon={SiMui} label="Material UI"/>
-                <SkillsComp Icon={RiTailwindCssFill} label="Tailwind"/>
             </div>
         </section>
     )
